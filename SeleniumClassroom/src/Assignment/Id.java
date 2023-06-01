@@ -38,6 +38,7 @@ System.out.println("Element 6 identifed");
 	driver.get("https://www.amazon.com");
 	driver.findElement(By.id("a-page"));
 	System.out.println("Element 10 identifed");
+	driver.close();
 
 	
 }
