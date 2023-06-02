@@ -9,5 +9,6 @@ public class FullScreen {
 		driver.get("https://www.youtube.com/");
 		Thread.sleep(2000);
 		driver.manage().window().fullscreen();
+		driver.close();
 	}
 }
