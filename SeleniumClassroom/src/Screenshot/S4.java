@@ -22,7 +22,7 @@ public class S4 {
 		WebElement password = driver.findElement(By.id("pass"));
 		File temp = password.getScreenshotAs(OutputType.FILE);
 		File permanent=new File("./screenshots/screenshot"+todate+".png");
-		FileHandler.copy(temp, permanent);	
+		FileHandler.copy(temp, permanent);
 		driver.close();
 	}
 

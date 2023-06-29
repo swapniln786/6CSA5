@@ -21,7 +21,7 @@ public class S3 {
 		WebElement password = driver.findElement(By.id("pass"));
 		File temp = password.getScreenshotAs(OutputType.FILE);
 		File permanent=new File("./screenshots/screenshot"+randomNumber+".png");
-		FileHandler.copy(temp, permanent);	
+		FileHandler.copy(temp, permanent);
 		driver.close();
 	}
 
