@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	username.sendKeys("hsbfh");
 	username.sendKeys(Keys.TAB+ "65454");
 	WebElement password = driver.switchTo().activeElement();
-	password.sendKeys(Keys.TAB+Keys.chord(Keys.TAB));
+	password.sendKeys(Keys.TAB,Keys.TAB);
 	driver.switchTo().activeElement().sendKeys(Keys.ENTER);
 }
 }
