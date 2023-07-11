@@ -12,6 +12,6 @@ public static void main(String[] args) {
 	driver.get("https://demo.actitime.com/login.do");
 	WebElement button = driver.findElement(By.id("loginButton"));
 	System.out.println(button.isEnabled());
-	driver.close();
+	//driver.close();
 }
 }

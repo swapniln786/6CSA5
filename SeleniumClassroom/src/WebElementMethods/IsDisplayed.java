@@ -12,6 +12,6 @@ public static void main(String[] args) {
 	driver.get("https://www.facebook.com/");
 	  WebElement username = driver.findElement(By.id("email"));
 	  System.out.println(username.isDisplayed());
-	  driver.close();	
+	 // driver.close();	
 }
 }

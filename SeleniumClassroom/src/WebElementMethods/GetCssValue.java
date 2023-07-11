@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	driver.manage().window().maximize();
 	driver.get("https://www.amazon.in");
 	WebElement signin = driver.findElement(By.linkText("Sign in securely"));
-	System.out.println(signin.getCssValue("display"));
+	System.out.println(signin.getCssValue("font-size"));
 	driver.close();
 }
 }
